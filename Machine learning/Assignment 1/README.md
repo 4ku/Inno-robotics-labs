@@ -4,29 +4,29 @@ We have dataset with information about flights and delay for each flight. Using 
 Below we try to solve this problem using machine learning.
 
 ## Data description
-![](Data%20description.png)
+![](https://github.com/4ku/Inno-robotics-labs/raw/master/Machine%20learning/Assignment%201/Data%20description.png)
 
 ### Explore data
-![](Scatter%20duration-delay.png)
-*Flight delay - flight duration dependency*
-
+![](https://github.com/4ku/Inno-robotics-labs/raw/master/Machine%20learning/Assignment%201/Scatter%20duration-delay.png)  
+*Flight delay - flight duration dependency*  
+&nbsp;
 #### Delay histogram
-![](Delay%20under%2050.png)
-*Number of delays under 50 minutes*
-
-![](Delay%20over%2050%20and%20under%20300.png)
-*Number of delays over 50 minutes and under 300 minutes*
-
-![](Delay%20over%20300.png)
-*Number of delays over 300 minutes*
-
+![](https://github.com/4ku/Inno-robotics-labs/raw/master/Machine%20learning/Assignment%201/Delay%20under%2050.png)  
+*Number of delays under 50 minutes*  
+&nbsp;
+![](https://github.com/4ku/Inno-robotics-labs/raw/master/Machine%20learning/Assignment%201/Delay%20over%2050%20and%20under%20300.png)  
+*Number of delays over 50 minutes and under 300 minutes*  
+&nbsp;
+![](https://github.com/4ku/Inno-robotics-labs/raw/master/Machine%20learning/Assignment%201/Delay%20over%20300.png)  
+*Number of delays over 300 minutes*  
+&nbsp;
 ## Outlier detection and removal
 We can find outliers using `isolation forest` method. More about this method you can read [here](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html). 
 The result of the method:
-![](Outliers.png)
-*X axis - normalized flight duration, Y axis - flight delay. **Red** color is outliers, **blue** - remaining data*
-
-## Models results
+![](https://github.com/4ku/Inno-robotics-labs/raw/master/Machine%20learning/Assignment%201/Outliers.png)  
+*X axis - normalized flight duration, Y axis - flight delay. **Red** color is outliers, **blue** - remaining data*  
+&nbsp;
+## Models results  
 | Model\Error                      | Train MSE | Train MAE | Test MSE | Test MAE |
 |----------------------------------|-----------|-----------|----------|----------|
 | Linear regression                | 353.3     | 9         | 1602     | 10.9     |
